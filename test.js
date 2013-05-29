@@ -1,4 +1,3 @@
-
 (function($){
 
     function Test(options, selector){
@@ -35,7 +34,7 @@
          }
     }
 
-    $.fn.BoxLogic = $.extendable(Test);
+    $.fn.Test = $.extendable(Test);
     
     
 }(jQuery));
