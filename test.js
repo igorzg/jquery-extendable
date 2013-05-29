@@ -29,8 +29,8 @@
         /**
          * Public method
          */
-         pub : function(){
-            return '1';
+         pub : function( a, b, c){
+            return a + b + c;
          }
     }
 
@@ -38,3 +38,16 @@
     
     
 }(jQuery));
+
+
+
+$(function(){
+    $('div.box').Test({
+        a: 'works',
+        b : 'works_also'
+    });
+    //call pub method
+    $('div.box').Test("pub", 1 ,2 ,3 );
+     //not accessible and will not throw an error
+    $('div.box').Test("_private");
+});
