@@ -1,5 +1,8 @@
 (function($){
-
+    
+    /**
+     * Constructor 
+     */
     function Test(options, selector){
         this._settings = $.extend({
             a : 'a',
