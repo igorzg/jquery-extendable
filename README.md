@@ -1,7 +1,7 @@
-Jquery extendable
+jQuery extendable
 =================
 
-Jquery extendable is fastest and simpliest way to create a jquery plugin.
+jQuery extendable is the fastest and simplest way to create a jQuery plugin.
 
 <pre>
 (function($){
@@ -22,7 +22,7 @@ Jquery extendable is fastest and simpliest way to create a jquery plugin.
      */
     Test.prototype = {
         /**
-         * Initalize
+         * Initialize
          */
         _init : function(){
             
