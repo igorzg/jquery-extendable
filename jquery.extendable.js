@@ -5,8 +5,6 @@
  * Time: 5:09 PM
  */
 (function($) {
-
-
     /**
      *
      * Plugin extender
@@ -64,11 +62,7 @@
                     }
                 });
             }
-
             return returnValue;
-
         }
     };
-
-
 }(jQuery));

@@ -39,10 +39,7 @@
 
     $.fn.Test = $.extendable(Test);
     
-    
 }(jQuery));
-
-
 
 $(function(){
     $('div.box').Test({
