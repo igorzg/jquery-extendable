@@ -1,7 +1,7 @@
-jquery-extendable
+Jquery extendable
 =================
 
-jquery extendable is fastest way to create a jquery plugin.
+Jquery extendable is fastest and simpliest way to create a jquery plugin.
 
 <pre>
 (function($){
