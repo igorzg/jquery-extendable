@@ -28,7 +28,7 @@ Jquery extendable is fastest and simpliest way to create a jquery plugin.
             
         },
           /**
-         * Initalize
+         * Private
          */
         _private : function(){
             throw new Error('Not visible');
